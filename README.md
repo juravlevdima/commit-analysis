@@ -5,6 +5,7 @@ This script analyzes commits in a GitHub repository and generates per-author sta
 ## Features
 
 - Count added and deleted lines per author
+- Skipping initial commit without parent and merge commits (non-original)
 - Filter by date range (`--since` / `--until`) across all or specific branches
 - Analyze a single commit by hash (`--commit`)
 - Skip merge commits and initial commits
